@@ -3515,4 +3515,5 @@ details-disclosure > details {
 .announcement-bar__message span{
   color:red;
   font-size:20px;
+  border:1px soliid red;
 }

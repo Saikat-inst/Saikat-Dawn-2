@@ -3516,6 +3516,7 @@ details-disclosure > details {
    color:red;
    font-size:40px;
    text-decoration: underline;
+  border:1px solid red;
 }
 
 

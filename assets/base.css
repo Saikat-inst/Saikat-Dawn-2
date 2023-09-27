@@ -3512,4 +3512,8 @@ details-disclosure > details {
   }
 }
 
+.announcement-bar__message span{
+   color:red;
+}
+
 

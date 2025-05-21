@@ -118,6 +118,11 @@
                 {{ card_product.title | escape }}
               </a>
             </h3>
+   {% if product.tags contains 'sale' %}
+          <div class="bestseller">
+              <p>Best seller</p>
+          </div>
+        {% endif %}
           </div>
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}

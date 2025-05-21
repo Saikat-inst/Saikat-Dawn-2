@@ -156,13 +156,12 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
-           {% if product.tags contains 'sale' %}
-          <div class="bestseller">
-
-              <p>Sale</p>
-    
-          </div>
-        {% endif %}
+   {% for tag in product.tags %}
+          {% if tag contains 'type__' %}
+            {% assign parts = tag | split: 'type__' %}
+            <span class="typetag">{{ parts[1] }}</span>
+          {% endif %}
+        {% endfor %}
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>

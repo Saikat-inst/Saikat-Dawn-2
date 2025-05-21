@@ -157,13 +157,11 @@
             </a>
      </h3>
 
-               {% if product.tags contains 'sale' %}
-          <div class="bestseller">
-
-              <p>Sale</p>
-    
-          </div>
-        {% endif %}
+{% if card_product.tags contains 'sale' %}
+  <div class="bestseller">
+    <p>Sale</p>
+  </div>
+{% endif %}
 
           <div class="card-information">
             {%- if show_vendor -%}

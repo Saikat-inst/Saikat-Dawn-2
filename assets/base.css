@@ -3522,4 +3522,6 @@ details-disclosure > details {
 
 
 
-
+ .card__heading.h5{
+    color:red;
+ }

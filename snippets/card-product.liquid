@@ -155,14 +155,15 @@
             >
               {{ card_product.title | escape }}
             </a>
-             {% if product.tags contains 'sale' %}
+     </h3>
+
+               {% if product.tags contains 'sale' %}
           <div class="bestseller">
 
               <p>Sale</p>
     
           </div>
         {% endif %}
-          </h3>
 
           <div class="card-information">
             {%- if show_vendor -%}

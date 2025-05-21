@@ -56,7 +56,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "frontpage",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -92,20 +92,11 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
-        },
-        "button_6fpHQw": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_GxdpFB",
-        "text_6qLyH6",
-        "button_6fpHQw"
+        "text_6qLyH6"
       ],
       "settings": {
         "height": "adapt",
@@ -120,29 +111,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1731046271738dc624": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_CrYqHQ": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "VVSneV"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_CrYqHQ"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "image_with_text_MmrCeh",
-    "1731046271738dc624"
+    "image_with_text_MmrCeh"
   ]
 }
